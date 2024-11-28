@@ -31,6 +31,7 @@ read_cube <- function(path) {
     })()
 }
 
+#' @export
 calc_coords <- function(cube) {
   x_max <- cube$grid$x$n_voxel
   y_max <- cube$grid$y$n_voxel
